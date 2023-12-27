@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Facebook Login</title>
+  <style>
+ .wrapper {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+ }
+  
+  h1 {
+    color:#0009FF;
+  }
+  input[type="text"],input[type="password"] {
+    width:85vw;
+    height:9vw;
+    background:#eee;
+    border:0.2vw solid #eee;
+    border-radius:0.9vw;
+    color:#000;
+    margin:1.5vw;
+    padding:2vw;
+  }
+  
+  button {
+    width:90vw;
+    height:13vw;
+    border:0.2vw solid #0009FF;
+    border-radius:0.9vw;
+    background:#0009FF;
+    color:#fff;
+    margin:3vw;
+    padding:2vw;
+    font-weight:bold;
+  }
+  a {
+    text-decoration:none;
+  }
+  #or {
+    width:85vw;
+    height:2vw;
+    border-top:0.3vw solid #ccc;
+  }
+  #ortext {
+    position:relative;
+    top:-10.5vw;
+    background:white;
+    width:8vw;
+    text-align:center;
+  }
+  #reg {
+    background:#4CA732;
+    color:#fff;
+    padding:3vw;
+    border-radius:1vw;
+    position:relative;
+    top:-12vw;
+  }
+  .lang {
+    line-height:2vw;
+  }
+  .lang p:nth-child(1) {
+    word-spacing:30vw;
+    text-align:center;
+  }
+  .lang p:nth-child(2) {
+    word-spacing:10vw;
+    text-align:center;
+  }
+  .lang p:nth-child(3) {
+    word-spacing:30vw;
+    text-align:center;
+  }
+  .lang p:last-child {
+    word-spacing:30vw;
+    text-align:center;
+  }
+  #icon {
+    width:8vw;
+    height:8vw;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>facebook</h1>
+    <input type="text" id="username" placeholder="Email address or phone number" require/>
+    <input type="password" id="password" placeholder="Password" required/>
+    <button> Log In </button>
+    <p>
+      <a href="#forget">Forgotten password?</a></p>
+    <div id="or"></div>
+    <p id="ortext">or</p>
+    <div id="reg">
+      Create New Account
+    </div>
+    <div class="lang">
+    <p>English(UK) nepali</p>
+    <p>hindi(hindi) Portuguēs(Brasil)</p>
+    <p>Español Arabic</p>
+    <p>Deutsch
+    </div>
+     <p>Meta © 2024 </p>
+  </div>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Facebook Login</title>
+  <style>
+ .wrapper {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+ }
+  
+  h1 {
+    color:#0009FF;
+  }
+  input[type="text"],input[type="password"] {
+    width:85vw;
+    height:9vw;
+    background:#eee;
+    border:0.2vw solid #eee;
+    border-radius:0.9vw;
+    color:#000;
+    margin:1.5vw;
+    padding:2vw;
+  }
+  
+  button {
+    width:90vw;
+    height:13vw;
+    border:0.2vw solid #0009FF;
+    border-radius:0.9vw;
+    background:#0009FF;
+    color:#fff;
+    margin:3vw;
+    padding:2vw;
+    font-weight:bold;
+  }
+  a {
+    text-decoration:none;
+  }
+  #or {
+    width:85vw;
+    height:2vw;
+    border-top:0.3vw solid #ccc;
+  }
+  #ortext {
+    position:relative;
+    top:-10.5vw;
+    background:white;
+    width:8vw;
+    text-align:center;
+  }
+  #reg {
+    background:#4CA732;
+    color:#fff;
+    padding:3vw;
+    border-radius:1vw;
+    position:relative;
+    top:-12vw;
+  }
+  .lang {
+    line-height:2vw;
+  }
+  .lang p:nth-child(1) {
+    word-spacing:30vw;
+    text-align:center;
+  }
+  .lang p:nth-child(2) {
+    word-spacing:10vw;
+    text-align:center;
+  }
+  .lang p:nth-child(3) {
+    word-spacing:30vw;
+    text-align:center;
+  }
+  .lang p:last-child {
+    word-spacing:30vw;
+    text-align:center;
+  }
+  #icon {
+    width:8vw;
+    height:8vw;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>facebook</h1>
+    <input type="text" id="username" placeholder="Email address or phone number" require/>
+    <input type="password" id="password" placeholder="Password" required/>
+    <button> Log In </button>
+    <p>
+      <a href="#forget">Forgotten password?</a></p>
+    <div id="or"></div>
+    <p id="ortext">or</p>
+    <div id="reg">
+      Create New Account
+    </div>
+    <div class="lang">
+    <p>English(UK) nepali</p>
+    <p>hindi(hindi) Portuguēs(Brasil)</p>
+    <p>Español Arabic</p>
+    <p>Deutsch
+    </div>
+     <p>Meta © 2024 </p>
+  </div>
+</body>
+</html>
